@@ -42,7 +42,7 @@ abstract class Poligono
         $this->anchura = $anchura;
     }
 
-    abstract function area(){
+    public function area(){
 
-};
+    }
 }

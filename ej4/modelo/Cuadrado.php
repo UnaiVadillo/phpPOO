@@ -3,7 +3,7 @@
 
 class Cuadrado extends Poligono
 {
- function area(){
+ public function area(){
      return (parent::getAltura()*parent::getAnchura());
  }
 }
